@@ -1,10 +1,10 @@
-package im.fooding;
+package im.fooding.target;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class FoodingGatewayApplicationTests {
+class TargetApplicationTests {
 
     @Test
     void contextLoads() {
