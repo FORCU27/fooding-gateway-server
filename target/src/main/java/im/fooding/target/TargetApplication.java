@@ -1,13 +1,13 @@
-package im.fooding;
+package im.fooding.target;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class FoodingGatewayApplication {
+public class TargetApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(FoodingGatewayApplication.class, args);
+        SpringApplication.run(TargetApplication.class, args);
     }
 
 }

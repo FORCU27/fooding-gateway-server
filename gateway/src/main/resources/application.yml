@@ -1,0 +1,17 @@
+spring.application.name: gateway
+
+server:
+  port: 8081
+
+spring:
+  cloud:
+    gateway:
+      server:
+        webflux:
+          routes:
+            - id: target-service
+              uri: http://localhost:8082
+              predicates:
+                - Path=/target/**
+              filters:
+                - StripPrefix=1
